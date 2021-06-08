@@ -6,9 +6,9 @@ const Condom = ({ D: head, B: balls, isHard, children }) => {
     penis.setHead(head)
 
     if (isHard) {
-        return D === B && children
+        return B===D && children
     } else {
-        return D == B && children
+        return B==D && children
     }
 }
 
